@@ -19,10 +19,10 @@ struct ContentView: View {
 
     @StateObject var values = Values()
     
-//    init() {
-//        UIStepper.appearance().setDecrementImage(UIImage(systemName: "minus"), for: .normal)
-//        UIStepper.appearance().setIncrementImage(UIImage(systemName: "plus"), for: .normal)
-//    }
+    init() {
+        UIStepper.appearance().setDecrementImage(UIImage(systemName: "minus"), for: .normal)
+        UIStepper.appearance().setIncrementImage(UIImage(systemName: "plus"), for: .normal)
+    }
     
     var body: some View {
         NavigationView{
